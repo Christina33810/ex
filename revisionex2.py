@@ -3,7 +3,7 @@ import time
 
 col1, col2 = st.columns(2)
 with col1 :
-  with expander(" Market Trends 2024"):
+  with st.expander(" Market Trends 2024"):
     st.write("Eco-friendly products: Increasing demand",
              "Online shopping: Continued growth",
              "Subscription services: Rising popularity"
