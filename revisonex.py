@@ -25,5 +25,5 @@ if st.button("Check Target Achievement"):
   if total_sales >= target_sales:
     st.write(f"Target archieved! Total sales: ${total_sales}")
   else:
-    st.write(f"Target not met. Total sales: ${total_sales:,}(need ${target_sales-total_sales:,} more")
+    st.write(f"Target not met. Total sales: ${total_sales:,}(need ${target_sales-total_sales:,} more)")
 
