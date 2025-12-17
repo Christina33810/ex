@@ -29,8 +29,8 @@ with col2 :
             "Customer support was very helpful."
         ]
 
-       for i, feedback in enumerate(feedbacks, start=1):
-         st.write(f"{i}. {feedback}")
+      for i, feedback in enumerate(feedbacks, start=1):
+        st.write(f"{i}. {feedback}")
                
     with tab3:
       mar_sales = df[df["Month" == "Mar"]["Sales"]]
