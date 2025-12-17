@@ -43,5 +43,5 @@ with col2 :
         placeholder.write(f" Loading forecast ... {x*20}% complete")
         time.sleep(5)
 
-      st.subheader(f"The forcasted sales is ${forcasted_sale}")
+      st.subheader(f"The forcasted sales is ${forcasted_sales}")
   
