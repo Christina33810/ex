@@ -21,7 +21,7 @@ df = pd.DataFrame(data)
 st.dataframe(df)
 
 if st.button("Check Target Achievement"):
-  total_sales = int(data[selected_quarter]).sum()
+  total_sales = int(df[selected_quarter]).sum()
   if total_sales >= target_sales:
     st.write(f"Target archieved! Total sales: ${total_sales}")
   else:
