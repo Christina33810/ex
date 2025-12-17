@@ -34,7 +34,7 @@ with col2 :
         st.write(f"{i}. {feedback}")
                
     with tab3:
-      mar_sales = df[df["Month" == "Mar"]["Sales"]]
+      mar_sales = df[df["Month"] == "Mar"]["Sales"]
       forcasted_sales = mar_sales * (1 + growth_rate/100)
 
       placeholder = st.empty()
