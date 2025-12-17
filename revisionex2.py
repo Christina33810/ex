@@ -41,6 +41,7 @@ with col2 :
 
       for x in range(1,6):
         placeholder.write(f" Loading forecast ... {x*20}% complete")
+        time.sleep(5)
 
-      st.markdown("### The forcasted sales is ${forcasted_sale}")
+      st.subheader(f"The forcasted sales is ${forcasted_sale}")
   
